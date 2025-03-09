@@ -1,0 +1,15 @@
+﻿{
+    "timestamp":  "2025-03-09T18:19:16.4864671-04:00",
+    "servers":  [
+                    {
+                        "status":  "online",
+                        "ip":  "192.168.1.101",
+                        "name":  "server1"
+                    },
+                    {
+                        "status":  "offline",
+                        "ip":  "192.168.1.102",
+                        "name":  "server2"
+                    }
+                ]
+}

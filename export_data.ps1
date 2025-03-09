@@ -5,4 +5,4 @@ $data = Get-Service | Select-Object -First 10 -Property Name, Status, DisplayNam
 # $data | ConvertTo-Json | Out-File -FilePath "output.json"
 
 # Convert to JSON and output to stdout
-$data | ConvertTo-Json 
+$data | ConvertTo-Json -Depth 10
